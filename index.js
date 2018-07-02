@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('Pong!');
+  if (msg.content === 'bing') {
+    msg.reply('users should be banned from the internet so thye can\'t use their terrible search engine which is overall terribly terrible');
   }
 });
 
